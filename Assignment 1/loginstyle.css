@@ -43,12 +43,13 @@ body{
   -webkit-box-shadow: 10px 10px 5px #333;
   box-shadow: 10px 10px 5px #333;
 }*/
-#container{
+.container{
 	text-align: center;
-	text-decoration: overline;
-	color: green
+	/*text-decoration: overline;*/
+	color: black;
 }
 
+/*used for Login*/
 h1{
 	text-align: center;
 }
@@ -97,7 +98,8 @@ form {
 }
 
 .fas-fa-check{
-	text-decoration: none;	
+	text-decoration: none;
+	color: white;	
 }
 
 .sw-absolute-right{
@@ -107,4 +109,20 @@ form {
 
 .flex-row-reverse{
 
+}
+
+.form-inline{
+	
+}
+
+.fa-plus{
+	color: white;
+}
+
+.fa-arrow-left{
+	color: white;
+}
+
+.fa-user{
+	position: right;
 }
