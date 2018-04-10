@@ -14,24 +14,24 @@
 </head>
 <!--Nav Bar top and bottom-->
 <body>
-	<nav class="navbar navbar-dark bg-primary fixed-top">
-    <a class="navbar-brand" href="#"><strong>Profile</strong></a>
-    <!-- Navbar content -->
-    <a class="sw-font-white" href="#"><i class="fas fa-check"></i></a>
-  </nav>
-  
-  <nav class="navbar navbar-dark bg-primary fixed-bottom">
-   <a class="sw-font-white" href="profile.html"><i class="fas fa-user"></i></a>
- </nav>
- 
- <!-- example <h1 class="float-right">Welcome</h1>-->
+ <nav class="navbar navbar-dark bg-primary fixed-top">
+  <a class="navbar-brand" href="profile.html"><strong>Profile</strong></a>
+  <!-- Navbar content -->
+  <a class="sw-font-white" href="profile.html"><i class="fas fa-check"></i></a>
+</nav>
 
- <div class="container">
-  
+<nav class="navbar navbar-dark bg-primary    fixed-bottom">
+  <a class="sw-font-white" href="profile.html"><i class="fas fa-user"></i></a>
+</nav>
+
+<!-- example <h1 class="float-right">Welcome</h1>-->
+
+<div class="container">
+
   <form>
    <div class="form-group">
-    <label for="usernamesignup" class="username">Username</label>
-    <input type="text" name="username" placeholder="username" class="form-control">
+    <label for="username" class="username">Username</label>
+    <input type="text" name="name" placeholder="username" class="form-control">
   </div>
   <div class="form-group">
     <label for="email" class="email">Email</label>
@@ -39,15 +39,20 @@
   </div>
   <div class="form-group">
     <label for="firstname" class="firstname">First Name</label>
-    <input type="First name" name="First name" placeholder="First name" class="form-control">
+    <input type="name" name="First name" placeholder="First name" class="form-control">
   </div>
   <div class="form-group">
-    <label type="lastname" class="lastname">Last Name</label>
-    <input type="Last name" name="last name" placeholder="Last name" class="form-control">
+    <label type="name" class="lastname">Last Name</label>
+    <input type="name" name="last name" placeholder="Last name" class="form-control">
   </div>
-</form>
+  </form>
 </div>
-<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" href="#">Websites</button>
-<button type="button" class="btn btn-danger brn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" href="profile.html">Logout</button>
+
+<div class="container">
+  <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="button" href="../website-list.html">Websites</button>
+
+  <button type="button" class="btn btn-danger brn-lg btn-block" data-toggle="button" href="login.html">Logout</button>
+ </div> 
+
 </body>
 </html>

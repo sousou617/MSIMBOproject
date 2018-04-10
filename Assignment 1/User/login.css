@@ -20,3 +20,11 @@ form{
 .sw-font-white{
 	color: white;
 }
+
+.sw-no-underline:hover{
+	text-decoration: none;
+}
+
+.autocomplete{
+	
+}

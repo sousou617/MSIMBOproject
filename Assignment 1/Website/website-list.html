@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Website</title>
-	<link rel="stylesheet" type="text/css" href="../assignment1/website-listSTYLE.css">
+	
 	   <!-- Meta tags for making website for mobile-->
  <meta name="apple-mobile-web-app-capable" content="yes">
  <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -11,21 +11,21 @@
 
  <!-- STYLE sheet comes after all the libraries are loaded. Document style-->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../loginstyle.css">
+ 
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../loginstyle.css">
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-primary fixed-top">
-  		<a class="navbar-brand"</a>
+  		<!--<a class="navbar-brand"</a>-->
   		<div class="container">
-  			<a href="website-list.html"><i class="fas fa-arrow-left"></i></a>
-  			<a href="#"></a><strong>Websites</strong></a>
-  			<a href="website-new.html"><i class="fas fa-plus"></i></a>
+  			<a href="../User/profile.html"><i class="fas fa-arrow-left cb-color-white"></i></a>
+  			<a href="#" class="cb-align-center"></a><strong>Websites</strong></a>
+  			<a href="website-new.html"><i class="fas fa-plus cb-color-white"></i></a>
   		</div>
 	</nav>
-	<nav class="navbar-dark bg-primary fixed-bottom">
-		<div class="sw-width"><a href=".../user/profile.html" class="sw-font-white float-right"><i class="fas fa-user"></i></a></div>
-	</nav>
+
+
 	<div class="container-fluid">
 		<ul class="list-group">
 			<li class="list-group-item">
@@ -47,10 +47,11 @@
 		</ul>
 	</div>
 
-	<nav class="navbar navbar-dark bg-primary fixed-bottom">
-	<div class="sw-width">
-		<a class="sw-font-white" href="profile.html"><i class="fas fa-user"></i></a>
-	</div>
+		<nav class="navbar navbar-dark bg-primary fixed-bottom">
+		<div class="cb-user">
+			<a class="float-right cb-color-white" href="../User/profile.html"><i class="fas fa-user"></i></a>
+		</div>
+
 	</nav>
 </body>
 </html>

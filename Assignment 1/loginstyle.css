@@ -2,7 +2,7 @@ body{
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
-.sw-no-underline:hover{
+/*.sw-no-underline:hover{
 	text-decoration: none;
 }
 .sw-left-padding{
@@ -24,7 +24,7 @@ body{
 .sw-absolute-right{
 	position: absolute;
 	right: 15px;
-}
+}*/
 
 /*.navbar {
   top: 10px;
@@ -43,14 +43,14 @@ body{
   -webkit-box-shadow: 10px 10px 5px #333;
   box-shadow: 10px 10px 5px #333;
 }*/
-.container{
-	text-align: center;
+/*.container{
+	text-align: center;*/
 	/*text-decoration: overline;*/
-	color: black;
-}
+/*	color: black;
+}*/
 
 /*used for Login*/
-h1{
+/*h1{
 	text-align: center;
 }
 
@@ -65,14 +65,10 @@ button {
   padding: 10px 20px;
   background: #f4f7f8;
   border-radius: 8px;
-}
+}*/
 
-body{
-	padding-top: 70px;
-	padding-bottom: 70px;
-	/*text-align: center;*/
-}
-form {
+
+/*form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
@@ -121,8 +117,16 @@ form {
 
 .fa-arrow-left{
 	color: white;
+}*/
+
+.cb-user{
+	width: 100%;
 }
 
-.fa-user{
-	position: right;
+.cb-color-white{
+	color: white;
+}
+
+.cb-align-center{
+	text-align: center;
 }
