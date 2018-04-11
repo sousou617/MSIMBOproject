@@ -12,21 +12,21 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<nav class="row navbar navbar-dark bg-primary">
+	<nav class="row navbar navbar-dark bg-primary fixed-top">
 		<div class="col-sm-4 d-none d-sm-block">
 			<!--left nav-->
 			<div class="container-fluid">
-				<a class="sw-font-white" href="website.list.html"><i class="fas fa-chevron-left"></i></a>
-				<a class="sw-left-padding sw-no-underline" href="website-list.html">
-					<b class="sw-font-white">Websites</b></a>
-					<a href="websites-new.html" class="sw-font-white float-right"><i class="fas fa-plus"></i></a>
+				<a class="cb-color-white" href="website.list.html"><i class="fas fa-chevron-left cb-color-white"></i></a>
+				<a class="cb-left-padding cb-no-underline" href="website-list.html">
+					<b class="cb-color-white">Websites</b></a>
+				<a class="cb-color-white float-right" href="website.list.html"><i class="fas fa-plus"></i></a>
 			</div>
 		</div>
 			<!--right nav-->
 		<div class="col-sm-8">
 			<div class="container">
-				<a href="page-list.html"><b class="sw-no-underline">Edit Websites</b></a>
-				<a href="website-list.html" class="sw-font-white float-right"><i class="fas fa-check"></i></a>
+				<a class="cb-color-white cb-no-underline" href="page-list.html"><b>Edit Websites</b></a>
+				<a href="website-list.html" class="float-right"><i class="fas fa-check"></i></a>
 			</div>
 		</div>
 	</nav>
@@ -37,7 +37,7 @@
 					<ul class="list-group">
 						<li class="list-group-item d-flex justify-content-between align-items-center">
 							<a href="../Page/page-list.html">Blogging App</a>
-							<a class="float-right" href="website-edit.html"><i class="fas fa-cogs"></i></a>
+							<a class="float-right" aside href="website-edit.html"><i class="fas fa-cogs"></i></a>
 						</li>
 						<li class="list-group-item">
 							<a href="../Page/page-list.html">Address Book App</a>
@@ -60,12 +60,12 @@
 					<div class="container-fluid">
 						<form class="form-group">
 							<div>
-								<label for="website-name">Name</label>
-								<input class="form-control" type="text" name="website-name" placeholder="Type your website name">
+								<label for="website-name"><strong>Website Name</strong></label>
+								<input class="form-control" type="text" name="name" placeholder="Type your website name">
 							</div>
 							<!--website description-->
 							<div class="form-group">
-								<label for="website-name">Website Description</label>
+								<label for="website-name"><strong>Website Description</strong></label>
 								<textarea class="form-control" placeholder="Input your description for this website"></textarea>
 							</div>
 						</form>
@@ -75,9 +75,11 @@
 
 
 		<nav class="navbar navbar-dark bg-primary fixed-bottom">
-			<div class="sw-width">
-				<a class="sw-font-white" href="profile.html"><i class="fas fa-user"></i></a>
-			</nav>
+		<div class="cb-user">
+			<a class="float-right cb-color-white" href="../User/profile.html"><i class="fas fa-user"></i></a>
+		</div>
+		</nav>
+
 		</nav>
 
 	</body>

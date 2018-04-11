@@ -55,10 +55,6 @@ body{
 }
 
 
-.sw-font-white{
-	color: white;
-}
-
 button {
  	max-width: 300px;
   margin: 10px auto;
@@ -68,7 +64,7 @@ button {
 }*/
 
 
-/*form {
+form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
@@ -76,42 +72,32 @@ button {
   border-radius: 8px;
 }
 /
-.sw-no-underline:hover{
+.cb-no-underline:hover{
 	text-decoration: none;
 }
-.sw-left-padding{
+.cb-left-padding{
 	padding-left: 20px;
 }
 .list-group-item{
 
 }
+.list-group{
 
-.sw-font-white{
+}
+
+}
+.cb-no-underline{
 	color: white
 }
-.sw-no-underline{
-	color: white
-}
 
-.fas-fa-check{
-	text-decoration: none;
-	color: white;	
-}
-
-.sw-absolute-right{
+.cb-absolute-right{
 	position: absolute;
 	right: 15px
 }
 
-.flex-row-reverse{
 
-}
 
-.form-inline{
-	
-}
-
-.fa-plus{
+/*.fa-plus{
 	color: white;
 }
 
@@ -130,3 +116,13 @@ button {
 .cb-align-center{
 	text-align: center;
 }
+
+.cb-vl{
+	border-left: 6px black;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
