@@ -3,7 +3,7 @@ body{
 	padding-bottom: 70px;
 }
 
-#container{
+#container {
 	text-align: center;
 	text-decoration: overline;
 }
@@ -23,8 +23,4 @@ form{
 
 .sw-no-underline:hover{
 	text-decoration: none;
-}
-
-.autocomplete{
-	
 }
