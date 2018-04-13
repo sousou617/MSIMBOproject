@@ -24,3 +24,11 @@ form{
 .sw-no-underline:hover{
 	text-decoration: none;
 }
+
+.cb-width{
+	width: 100%;
+}
+
+.cb-float-right{
+    float: right;
+}
