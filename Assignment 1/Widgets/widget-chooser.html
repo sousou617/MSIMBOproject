@@ -12,51 +12,53 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-dark fixed-top sw-gray">
-		<a href="page-list.html"><i class="fas fa-chevron-left"></i></a>
-		<div class="sw-80-width">
-			<a class="sw-font-white sw-no-underline float-right" href="#">Widget Edit</a>
+	<nav class="navbar navbar-light fixed-top cb-gray">
+		<a href="widget-list.html"><i class="fas fa-chevron-left cb-black"></i></a>
+		<div class="cb-80-width">
+			<a class="cb-no-underline float-left" href="widget-heading.html"><b class="cb-black">Choose Widget</b></a>
 		</div>
-		<a href="widget-chooser.html" class="sw-black float-right"><i class="fas fa-plus"></i></a>
+		<a href="widget-chooser.html" class="cb-black float-right"><i class="fas fa-plus"></i></a>
 	</nav>
-	<form>
-		<!--widget name-->
-		<div class="form-group">
-			<label for="name">Name</label>
-			<input type="text" name="name" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="name">Text</label>
-			<input type="text" name="text" class="form-control">
-		</div>
-		<div class="form-group">
-			<label for="name">URL</label>
-			<input type="text" name="URL" class="form-control" placeholder="https://www.image.com">
-		</div>
-		<div class="form-group">
-			<label for="name">Width</label>
-			<input type="text" name="name" class="form-control" placeholder="100%">
-		</div>
-		<!--Upload-->
-
-		<div class="form-group">
-			<label for="Upload">Upload</label>
-			<input type="file" name="Upload" class="form-control">
-		</div>
-
-		<div>
-			<a class="btn btn-primary btn-block" href="#">Upload</a>
-		</div>
-		<div>
-			<a class="btn btn-danger btn-block" href="widget-list">Delete</a> 
-		</div>
-	</form>		
-	<nav class="navbar navbar-dark sw-gray fixed-bottom">
-		<div class="sw-width">
-			<a href="../User/profile.html" class="sw-font-white float-right"><i class="fas fa-user"></i></a>
+		<!--widget list-->
+	<div class="container">
+		<ul class="list-group">
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Header</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Label</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>HTML</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Text Input</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Link</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Button</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="widget-image.html" style="color:#4cbb17"><b>Image</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="widget-youtube.html" style="color:#4cbb17"><b>Youtube</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Data Table</b></a>
+			</li>
+			<li class="list-group-item">
+				<a href="../Page/page-new.html" style="color:#4cbb17"><b>Repeater</b></a>
+			</li>
+		</ul>
+	</div>	
+	<nav class="navbar navbar-dark cb-gray fixed-bottom">
+		<div class="cb-width">
+			<a href="widget-list.html" class="float-right" style="color:#09541F"><i class="fas fa-user"></i></a>
 		</div>
 	</nav>
-
 
 </body>
 </html>

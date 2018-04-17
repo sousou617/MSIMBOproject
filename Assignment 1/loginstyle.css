@@ -2,9 +2,29 @@ body{
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
+
+.cb-color-white{
+	color: white;
+}
+
 .cb-no-underline:hover{
 	text-decoration: none;
 }
+
+.cb-no-underline{
+	color: white
+}
+
+.cb-gray{
+	background-color: #DCE1DD;
+}
+
+.cb-black{
+	color: black;
+}
+
+
+
 .cb-left-padding{
 	padding-left: 20px;
 }
@@ -13,13 +33,6 @@ body{
 	z-index: 2;
 }
 
-.cb-gray{
-	background-color: gray;
-}
-
-.cb-black{
-	color: black;
-}
 
 /*.container{
 	text-align: center;*/
@@ -36,9 +49,6 @@ button {
 }*/
 
 
-.cb-no-underline:hover{
-	text-decoration: none;
-}
 /*.cb-left-padding{
 	padding-left: 20px;
 }*/
@@ -46,26 +56,19 @@ button {
 .list-group-item{
 }
 
-.list-group{
-}
+/*.list-group:hover{
+	color: blue;
+}*/
 
 
-.cb-no-underline{
-	color: white
-}
 
 .cb-absolute-right{
 	position: absolute;
 	right: 15px;
 }
 
-
 .cb-width{
 	width: 100%;
-}
-
-.cb-color-white{
-	color: white;
 }
 
 .cb-align-center{
@@ -95,4 +98,31 @@ button {
 
 .cb-list-style{
   list-style: none;
+}
+
+
+
+
+
+
+
+
+/* unvisited link */
+list-group:link {
+    color: red;
+}
+
+/* visited link */
+list-group:visited {
+    color: green;
+}
+
+/* mouse over link */
+list-group:hover {
+    color: hotpink;
+}
+
+/* selected link */
+list-group:active {
+    color: blue;
 }
