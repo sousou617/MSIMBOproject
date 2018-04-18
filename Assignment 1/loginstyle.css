@@ -1,28 +1,38 @@
-body{
+/*body{
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+*/
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ECECEC;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .cb-color-white{
 	color: white;
 }
 
-.cb-no-underline:hover{
+.cb-no-underline a:hover{
 	text-decoration: none;
 }
 
-.cb-no-underline{
+/*.cb-no-underline{
 	color: white
-}
+}*/
 
 .cb-gray{
-	background-color: #DCE1DD;
+	background-color: #6381CA;
 }
 
 .cb-black{
 	color: black;
 }
-
 
 
 .cb-left-padding{
@@ -46,14 +56,20 @@ button {
   padding: 10px 20px;
   background: #f4f7f8;
   border-radius: 8px;
-}*/
+}
 
 
 /*.cb-left-padding{
 	padding-left: 20px;
 }*/
 
-.list-group-item{
+.list-group:hover{
+	text-decoration: none;
+	color: #0B41C1;
+}
+
+a:hover{
+	text-decoration: none;
 }
 
 /*.list-group:hover{
@@ -100,29 +116,14 @@ button {
   list-style: none;
 }
 
-
-
-
-
-
-
-
-/* unvisited link */
-list-group:link {
-    color: red;
+.btn {
+	padding: 5px; 
+	margin-bottom: 5px;
 }
 
-/* visited link */
-list-group:visited {
-    color: green;
-}
 
-/* mouse over link */
-list-group:hover {
-    color: hotpink;
-}
 
-/* selected link */
-list-group:active {
-    color: blue;
-}
+/*.text{
+	text-transform: capitalize;
+}*/
+
