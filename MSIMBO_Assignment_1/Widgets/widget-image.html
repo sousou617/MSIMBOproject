@@ -13,15 +13,17 @@
 <link rel="stylesheet" type="text/css" href="../loginstyle.css">
 </head>
 <body>
-
+		<!-- Top Navbar -->
 	<nav class="navbar navbar-dark fixed-top cb-gray">
-		<a class="cb-black" href="widget-list.html"><i class="fas fa-chevron-left"></i></a>
+		<a class="cb-color-white" href="widget-list.html"><i class="fas fa-chevron-left"></i></a>
 		<div class="cb-left-padding">
-			<a class="cb-black cb-no-underline" href="../Widgets/widget-list.html"><strong>Widget Image</strong></a>
+			<a class="cb-color-white cb-no-underline" href="../Widgets/widget-list.html"><strong>Widget Image</strong></a>
 		</div>
-		<a href="../User/profile.html" class="cb-black float-right"><i class="fas fa-check"></i></a>
+		<a href="../User/profile.html" class="cb-color-white float-right"><i class="fas fa-check"></i></a>
 	</nav>
+
 	<form class="container">
+
 		<!--widget name-->
 		<div class="form-group">
 			<label for="name"><b>Name</b></label>
@@ -39,19 +41,16 @@
 			<label for="name"><b>Width</b></label>
 			<input type="text" name="name" class="form-control" placeholder="100%">
 		</div>
+		
 		<!--Upload-->
-
 		<div class="form-group">
 			<label for="Upload"><b>Upload</b></label>
 			<input type="file" name="Upload" class="form-control">
 		</div>
-
-		<div>
-			<a class="btn btn-primary btn-block" href="#">Upload</a>
-		</div>
-		<div>
-			<a class="btn btn-danger btn-block" href="widget-list.html">Delete</a> 
-		</div>
+		<!-- Submit buttons -->
+			<a class="btn btn-primary btn-block cb-submit-btn" href="#">Upload</a>
+			<a class="btn btn-danger btn-block cb-submit-btn" href="widget-list.html">Delete</a> 
+	
 	</form>		
 	<!-- Bottom Navbar -->
 	<nav class="navbar navbar-dark cb-gray fixed-bottom">

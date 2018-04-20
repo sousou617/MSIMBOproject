@@ -62,6 +62,9 @@ button {
 /*.cb-left-padding{
 	padding-left: 20px;
 }*/
+.list-group: hover{
+
+}
 
 .list-group:hover{
 	text-decoration: none;
@@ -70,6 +73,7 @@ button {
 
 a:hover{
 	text-decoration: none;
+	color: #0248EF;
 }
 
 /*.list-group:hover{
@@ -85,6 +89,7 @@ a:hover{
 
 .cb-width{
 	width: 100%;
+	padding-top: 5px;
 }
 
 .cb-align-center{
