@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>New Page</title>
+	<title>Widgets Heading</title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
@@ -11,36 +11,37 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
-		<!-- Top Navbar -->
-	<nav class="navbar navbar-dark fixed-top cb-gray">
-		<a class="cb-black" href="page-list.html"><i class="fas fa-chevron-left"></i></a>
-		<div class="cb-left-padding">
-			<a class="cb-black cb-no-underline" href="#"><strong>New Page</strong></a>
-		</div>
-		<a href="page-list.html" class="cb-black float-right"><i class="fas fa-check"></i></a>
-	</nav>
 
-	<div class="container">
-	<form>
+	<nav class="navbar navbar-dark fixed-top cb-gray">
+		<a href="widget-list.html"><i class="fas fa-chevron-left cb-color-white"></i></a>
+		<div class="cb-80-width">
+			<a class="cb-no-underline float-left" href="widget-heading.html"><b class="cb-color-white">Widget Edit</b></a>
+		</div>
+		<a href="widget-list.html" class="cb-color-white float-right"><i class="fas fa-plus"></i></a>
+	</nav>
+	<form class="container">
 		<!--widget name-->
 		<div class="form-group">
 			<label for="name"><b>Name</b></label>
-			<input type="text" name="name" class="form-control" placeholder="Page Name">
+			<input type="text" name="name" class="form-control" placeholder="Name">
 		</div>
 		<div class="form-group">
-			<label for="name"><b>Title</b></label>
-			<input type="text" name="text" class="form-control" placeholder="Page Title">
+			<label for="name"><b>Text</b></label>
+			<input type="text" name="text" class="form-control" placeholder="US Senate Reaches Compromise on Emergency">
+		</div>
+		<div class="form-group">
+			<label for="name"><b>Size</b></label>
+			<input type="text" name="name" class="form-control" placeholder="3">
 		</div>
 
-	
+		<div>
+			<a class="btn btn-danger btn-block cb-submit-btn" href="widget-list.html">Delete</a> 
+		</div>
 	</form>		
-			<!-- Bottom Navbar -->
 	<nav class="navbar navbar-dark cb-gray fixed-bottom">
 		<div class="cb-width">
-			<a href="../User/profile.html" class="cb-float-right cb-color-white"><i class="fas fa-user"></i></a>
+			<a href="widget-list.html" class="float-right cb-color-white"><i class="fas fa-user"></i></a>
 		</div>
-	</div>		
-
 	</nav>
 
 
